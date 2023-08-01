@@ -1,0 +1,65 @@
+body {
+    background-image: url("IndianFlag.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#main {
+    margin: auto;
+    width: 50%;
+    border: 1px solid #eaeff4ef;
+    border-radius: 1.5%;
+    padding: 10px;
+    text-align: justify;
+    background-color: rgba(152, 193, 204, 0.847);
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 2px 2px rgb(4, 34, 9);
+    color: rgba(48, 43, 203, 0.83);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+}
+
+.question {
+    font-weight: 600;
+}
+
+.options {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#btn {
+    display: flex;
+}
+
+#submit {
+    margin: auto;
+    width: auto;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: rgba(62, 134, 216, 0.765);
+    color: #fff;
+    border: 1px;
+    border-radius: 75%;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#submit:hover {
+    background-color: rgba(29, 61, 109, 0.936);
+}
+
+#results {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgba(143, 45, 176, 0.863);
+}
